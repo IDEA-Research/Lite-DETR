@@ -17,12 +17,14 @@ Results on Deformable DETR
 Results on DINO and H-DETR
 ![hero_figure](figs/results.jpg)
 
-[comment]: <> (![hero_figure]&#40;figs/vis.jpg&#41;)
+## Citing Lite DETR
+If you find our work helpful for your research, please consider citing the following BibTeX entry.
 
-[comment]: <> (# Bibtex)
-
-[comment]: <> (If you find our work helpful for your research, please consider citing the following BibTeX entry.)
-
-[comment]: <> (```bibtex)
-
-[comment]: <> (```)
+```BibTeX
+@article{li2023lite,
+  title={Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR},
+  author={Li, Feng and Zeng, Ailing and Liu, Shilong and Zhang, Hao and Li, Hongyang and Zhang, Lei and Ni, Lionel M},
+  journal={arXiv preprint arXiv:2303.07335},
+  year={2023}
+}
+```
