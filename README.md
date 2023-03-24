@@ -5,7 +5,7 @@ Code will be released soon.
 # Key Features
 Efficient encoder design to reduce computational cost
 - **Simple**. Dozens of lines code change (if not consider pluggable key-aware attention). 
-- **Effective**. Reduce encoder cost by 50\% while preserve most of the orignal performance.
+- **Effective**. Reduce encoder cost by 50\% while preserve most of the original performance.
 - **General**. Validated on a series of DETR models (Deformable DETR, H-DETR, DINO).
 
 ![hero_figure](figs/flops.png)
