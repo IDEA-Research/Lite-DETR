@@ -106,7 +106,7 @@ for Lite-DINO-H2L2-(3+1)x3, a=3, b=3.
 
 Add `--benchmark --benchmark_only` at the end of the above command to measure the GFLOPs.
 ### Lack Speed Optimizations
-We did not provide cuda implementation for the key-aware deformable attention (KAD), so the training and inference speed is slow. As KDA mainly impacts the performance of small objects, you can use the original deformable attention instead by setting `key_aware=False` in the config. The overall performance will be not significantly impacted.
+We did not provide cuda implementation for the key-aware deformable attention (KDA), so the training and inference speed is slow. As KDA mainly impacts the performance of small objects, you can use the original deformable attention instead by setting `key_aware=False` in the config. The overall performance will be not significantly impacted.
 
 Concurrent work [RT-DETR](https://arxiv.org/pdf/2304.08069.pdf) also adopts similar idea to handle high-resolution maps and other speed improvements. It is optimized well in running speed, so **we encourage you to use RT-DETR for practical scenarios**.
 
